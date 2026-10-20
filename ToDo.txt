@@ -1,0 +1,2 @@
+- Graph scale: Make it that for each gene, the standard value is in the middle on the graph by default (So 0 is bottom, standard value is middle, 2* standard value is top).
+- Show all gene values at least as text
