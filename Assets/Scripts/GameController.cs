@@ -171,14 +171,14 @@ public class GameController : MonoBehaviour
             averageMoveSpeedM = currentMice > 0 ? averageMoveSpeedM / currentMice : 0;
             averageZigZag = currentMice > 0 ? averageZigZag / currentMice : 0;
 
-            promptViewDensity.text = "View Density: " + averageViewDensity;
-            promptViewWidth.text = "View Width: " + averageViewWidth;
-            promptViewRange.text = "View Range: " + averageViewRange;
-            promptTenacity.text = "Tenacity: " + averageTenacity;
-            promptAppeal.text = "Appeal: " + averageAppeal;
-            promptMoveSpeed.text = "Move Speed: " + averageMoveSpeed;
-            promptMoveSpeedM.text = "Move Speed M: " + averageMoveSpeedM;
-            promptZigZag.text = "Zig Zag: " + averageZigZag;
+            promptViewDensity.text = $"View Density: {averageViewDensity:F4}";
+            promptViewWidth.text = $"View Width: {averageViewWidth:F4}";
+            promptViewRange.text = $"View Range: {averageViewRange:F4}";
+            promptTenacity.text = $"Tenacity: {averageTenacity:F4}";
+            promptAppeal.text = $"Appeal: {averageAppeal:F4}";
+            promptMoveSpeed.text = $"Move Speed: {averageMoveSpeed:F4}";
+            promptMoveSpeedM.text = $"Move Speed M: {averageMoveSpeedM:F4}";
+            promptZigZag.text = $"Zig Zag: {averageZigZag:F4}";
 
             #endregion
             
